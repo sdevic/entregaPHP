@@ -1,0 +1,96 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+h1 {
+    padding-top: 10%;
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+    font-weight: lighter;
+    text-align: center;
+    color: grey;
+   
+
+}
+
+
+/*estilos del header*/
+header{
+    padding: 2%;
+    background-color: pink;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+   
+}
+
+nav ul li {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1rem;
+    list-style: none;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3rem;
+    border-color: black;
+    border-style: inset;
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color:blue;
+    padding: 1rem;
+}
+
+.home {
+      background-color:red;
+     
+           
+}  
+.descuento{
+    padding-left: 40%;
+}
+
+footer {
+    background-color:greenyellow;
+    text-align: center;
+    
+  
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/*estilos del formulario*/
+#solicitud{ 
+    width: 40%;
+    border: solid;
+    padding: 1rem;
+    border-radius: 5px;
+    border-color: #7B7D7D;
+    background-color: #F7F9F9;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2REM;
+    justify-content: center;    
+}
+
+.btnEnvio{   
+    background-color: #B3B6B7;
+    font-size: 0.8rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    border-color: #E6B0AA ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
